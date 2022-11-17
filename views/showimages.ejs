@@ -1,0 +1,11 @@
+<html>
+    <body>
+        <ul>
+        <% for (let i = 0; i < images.length; i++) { %>
+            <li>
+                <img src="data:image/image/jpg;base64,<%=images[i].image.toString('base64')%>" />
+            </li>
+        <%} %>
+        </ul>
+    </body>
+</html>
